@@ -18,6 +18,11 @@ install(DIRECTORY urdf
   DESTINATION share/${PROJECT_NAME}
 )
 
+# Plans constructeur : cotes de bride et d'embase, source des offsets flange
+install(DIRECTORY doc
+  DESTINATION share/${PROJECT_NAME}
+)
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
