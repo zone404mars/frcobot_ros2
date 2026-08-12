@@ -458,4 +458,13 @@
       k_position="100.0"
       k_velocity="40.0" />
   </joint>
+  <!-- Flange : bride mecanique, face de montage de l'effecteur.
+       Purement wrist3_link translate de 0.106 m sur son axe Z, sans rotation.
+       Cote relevee sur le plan constructeur doc/fr10.pdf (114 | 106 mm). -->
+  <link name="flange"></link>
+  <joint name="wrist3_to_flange" type="fixed">
+    <parent link="wrist3_link"/>
+    <child link="flange"/>
+    <origin xyz="0 0 0.106" rpy="0 0 0"/>
+  </joint>
 </robot>
