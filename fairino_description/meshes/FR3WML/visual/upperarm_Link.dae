@@ -105,22 +105,19 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="RD37_3-FR3WML-3" name="RD37.3-FR3WML-3" type="NODE">
-        <matrix sid="transform">-4.37114e-11 -0.001 4.37114e-11 0 0.001 -4.37114e-11 0 0 0 4.37114e-11 0.001 0 0 0 0 1</matrix>
-        <node id="stitch_result_stitchFBXASC032all" name="stitch_result_stitchFBXASC032all" type="NODE">
-          <matrix sid="transform">-0.01221702 0 -0.9999254 -1.19209e-7 -3.55271e-15 1 -4.05231e-15 2.22294e-15 0.9999254 0 -0.01221702 0 0 0 0 1</matrix>
-          <instance_geometry url="#stitch_result_stitchFBXASC032allMesh_007-mesh" name="stitch_result_stitchFBXASC032all">
-            <bind_material>
-              <technique_common>
-                <instance_material symbol="MaterialFBXASC032FBXASC03529-material" target="#MaterialFBXASC032FBXASC03529-material">
-                  <bind_vertex_input semantic="stitch_result_stitchFBXASC032allMesh_007-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
-                  <bind_vertex_input semantic="stitch_result_stitchFBXASC032allMesh_007-mesh-map-1" input_semantic="TEXCOORD" input_set="1"/>
-                  <bind_vertex_input semantic="stitch_result_stitchFBXASC032allMesh_007-mesh-map-2" input_semantic="TEXCOORD" input_set="2"/>
-                </instance_material>
-              </technique_common>
-            </bind_material>
-          </instance_geometry>
-        </node>
-      </node>
+        <matrix sid="transform">4.42421657303e-11 -0.001 4.31741201338e-11 0 -1.221702e-05 -4.37114e-11 -0.0009999254 -1.19209e-10 0.0009999254 4.37114e-11 -1.221702e-05 0 0 0 0 1</matrix>
+        <instance_geometry url="#stitch_result_stitchFBXASC032allMesh_007-mesh" name="stitch_result_stitchFBXASC032all">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MaterialFBXASC032FBXASC03529-material" target="#MaterialFBXASC032FBXASC03529-material">
+                <bind_vertex_input semantic="stitch_result_stitchFBXASC032allMesh_007-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="stitch_result_stitchFBXASC032allMesh_007-mesh-map-1" input_semantic="TEXCOORD" input_set="1"/>
+                <bind_vertex_input semantic="stitch_result_stitchFBXASC032allMesh_007-mesh-map-2" input_semantic="TEXCOORD" input_set="2"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+    </node>
     </visual_scene>
   </library_visual_scenes>
   <scene>
