@@ -85,20 +85,17 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="RD37_3-FR3WMS-V1_0-1_002" name="RD37.3-FR3WMS-V1.0-1.002" type="NODE">
-        <matrix sid="transform">0.001 0 0 0 0 0.001 -4.37114e-11 0 0 4.37114e-11 0.001 0 0 0 0 1</matrix>
-        <node id="stitch_result_stitchFBXASC032all" name="stitch_result_stitchFBXASC032all" type="NODE">
-          <matrix sid="transform">-4.37114e-8 -4.37114e-8 -1 -0.65 -1 3.55271e-15 4.37114e-8 -0.55 0 1 -4.37114e-8 0 0 0 0 1</matrix>
-          <instance_geometry url="#stitch_result_stitchFBXASC032allMesh_004-mesh" name="stitch_result_stitchFBXASC032all">
-            <bind_material>
-              <technique_common>
-                <instance_material symbol="MaterialFBXASC032FBXASC03525_001-material" target="#MaterialFBXASC032FBXASC03525_001-material">
-                  <bind_vertex_input semantic="stitch_result_stitchFBXASC032allMesh_004-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
-                </instance_material>
-              </technique_common>
-            </bind_material>
-          </instance_geometry>
-        </node>
-      </node>
+        <matrix sid="transform">-4.37114e-11 -4.37114e-11 -0.001 -0.00065 -0.001 -4.37113964473e-11 4.37114019107e-11 -0.00055 -4.37114e-11 0.001 -4.37113980893e-11 -2.404127e-11 0 0 0 1</matrix>
+        <instance_geometry url="#stitch_result_stitchFBXASC032allMesh_004-mesh" name="stitch_result_stitchFBXASC032all">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="MaterialFBXASC032FBXASC03525_001-material" target="#MaterialFBXASC032FBXASC03525_001-material">
+                <bind_vertex_input semantic="stitch_result_stitchFBXASC032allMesh_004-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+    </node>
     </visual_scene>
   </library_visual_scenes>
   <scene>
