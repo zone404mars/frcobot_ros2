@@ -458,4 +458,11 @@
       k_position="15"
       k_velocity="10" />
   </joint>
+  <!-- Plan de bride du SDK Fairino, mesure le 2026-10-02 sur fairino_simmachine v3.9.7 (GetForwardKin moins l'outil actif). -->
+  <link name="flange"></link>
+  <joint name="wrist3_to_flange" type="fixed">
+    <parent link="wrist3_link"/>
+    <child link="flange"/>
+    <origin xyz="0 0 0.100" rpy="0 0 0"/>
+  </joint>
 </robot>

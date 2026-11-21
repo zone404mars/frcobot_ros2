@@ -428,4 +428,11 @@
       damping="0"
       friction="0" />
   </joint>
+  <!-- Plan de bride du SDK Fairino, M1 du 2026-11-19, FR5-WML : 105.995 mm, résidu sous 0.1 mm sur 5 configurations. Méthode : GetForwardKin moins la pose de j6 de l'URDF, sur fairino_simmachine v3.9.7. -->
+  <link name="flange"></link>
+  <joint name="wrist3_to_flange" type="fixed">
+    <parent link="wrist3_Link"/>
+    <child link="flange"/>
+    <origin xyz="0 0 0.106" rpy="0 0 0"/>
+  </joint>
 </robot>
