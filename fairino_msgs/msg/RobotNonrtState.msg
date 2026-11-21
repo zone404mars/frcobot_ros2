@@ -120,3 +120,10 @@ uint8 exaxiscoordid
 float64 slave_status_1
 float64 slave_status_2
 int32 slave_domain_id
+uint8 program_run_state
+float64 speed_scale_manual
+float64 speed_scale_auto
+uint8 slave1_reconnect_flag
+uint8 slave2_reconnect_flag
+int32 slave1_exaxistatus_errorcode
+int32 slave2_exaxistatus_errorcode
